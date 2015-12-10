@@ -1,7 +1,7 @@
 var React  = require('react');
-var TableRow = require('./tablerow');
-var SearchBar = require('./searchbar');
-var Button = require('./button');
+var TableRow = require('./components/tablerow');
+var SearchBar = require('./components/searchbar');
+var Button = require('./components/button');
 
 /*
   var ReactRouter = require('react-router');
