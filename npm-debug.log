@@ -1,0 +1,563 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'reflux' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose install initial load of /Users/lalit/js_react/demo1/package.json
+5 warn package.json react-starter@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/browserify/package.json
+7 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp/package.json
+8 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp-concat/package.json
+9 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp-react/package.json
+10 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp-sass/package.json
+11 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp-server-livereload/package.json
+12 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp-util/package.json
+13 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/gulp-watch/package.json
+14 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/history/package.json
+15 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/material-ui/package.json
+16 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/node-notifier/package.json
+17 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/react/package.json
+18 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/react-dom/package.json
+19 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/react-router/package.json
+20 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/react-tap-event-plugin/package.json
+21 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/reactify/package.json
+22 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/vinyl-source-stream/package.json
+23 verbose installManyTop reading scoped package data from /Users/lalit/js_react/demo1/node_modules/watchify/package.json
+24 info package.json react-tap-event-plugin@0.2.1 No license field.
+25 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/package.json
+26 silly cache add args [ 'reflux', null ]
+27 verbose cache add spec reflux
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'reflux',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'reflux',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: '*',
+28 silly cache add   type: 'range' }
+29 silly addNamed reflux@*
+30 verbose addNamed "*" is a valid semver range for reflux
+31 silly addNameRange { name: 'reflux', range: '*', hasData: false }
+32 silly mapToRegistry name reflux
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/reflux
+36 verbose addNameRange registry:https://registry.npmjs.org/reflux not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/reflux
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 1:41:37 PM
+40 verbose request id 7861cd6216dc741f
+41 verbose etag "5987I3HFPT1ZXSI3P3VMTQ8VQ"
+42 http request GET https://registry.npmjs.org/reflux
+43 http 304 https://registry.npmjs.org/reflux
+44 silly get cb [ 304,
+44 silly get   { date: 'Tue, 08 Dec 2015 08:11:37 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=60',
+44 silly get     etag: '"5987I3HFPT1ZXSI3P3VMTQ8VQ"',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-sin6923-SIN',
+44 silly get     'x-cache': 'HIT',
+44 silly get     'x-cache-hits': '1',
+44 silly get     'x-timer': 'S1449562297.718852,VS0,VE876',
+44 silly get     vary: 'Accept' } ]
+45 verbose etag https://registry.npmjs.org/reflux from cache
+46 verbose get saving reflux to /Users/lalit/.npm/registry.npmjs.org/reflux/.cache.json
+47 silly addNameRange number 2 { name: 'reflux', range: '*', hasData: true }
+48 silly addNameRange versions [ 'reflux',
+48 silly addNameRange   [ '0.0.1',
+48 silly addNameRange     '0.0.2',
+48 silly addNameRange     '0.0.3',
+48 silly addNameRange     '0.0.4',
+48 silly addNameRange     '0.1.0',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.1.4',
+48 silly addNameRange     '0.1.5',
+48 silly addNameRange     '0.1.6',
+48 silly addNameRange     '0.1.7',
+48 silly addNameRange     '0.1.8',
+48 silly addNameRange     '0.1.9',
+48 silly addNameRange     '0.1.10',
+48 silly addNameRange     '0.1.11',
+48 silly addNameRange     '0.1.12',
+48 silly addNameRange     '0.1.13',
+48 silly addNameRange     '0.1.14',
+48 silly addNameRange     '0.1.15',
+48 silly addNameRange     '0.2.0',
+48 silly addNameRange     '0.2.1',
+48 silly addNameRange     '0.2.2',
+48 silly addNameRange     '0.2.3',
+48 silly addNameRange     '0.2.4',
+48 silly addNameRange     '0.2.5',
+48 silly addNameRange     '0.2.6',
+48 silly addNameRange     '0.2.7',
+48 silly addNameRange     '0.2.8',
+48 silly addNameRange     '0.2.9',
+48 silly addNameRange     '0.2.10',
+48 silly addNameRange     '0.2.11',
+48 silly addNameRange     '0.2.12',
+48 silly addNameRange     '0.2.13',
+48 silly addNameRange     '0.3.0' ] ]
+49 silly addNamed reflux@0.3.0
+50 verbose addNamed "0.3.0" is a plain semver version for reflux
+51 silly cache afterAdd reflux@0.3.0
+52 verbose afterAdd /Users/lalit/.npm/reflux/0.3.0/package/package.json not in flight; writing
+53 verbose afterAdd /Users/lalit/.npm/reflux/0.3.0/package/package.json written
+54 silly install resolved [ { name: 'reflux',
+54 silly install resolved     version: '0.3.0',
+54 silly install resolved     description: 'A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux',
+54 silly install resolved     main: 'src/index.js',
+54 silly install resolved     scripts:
+54 silly install resolved      { test: 'grunt test',
+54 silly install resolved        'test:sauce': 'grunt karma:sauce',
+54 silly install resolved        benchmark: 'node test/benchmarks',
+54 silly install resolved        build: 'grunt build' },
+54 silly install resolved     author: { name: 'Mikael Brassman' },
+54 silly install resolved     license: 'BSD-3-Clause',
+54 silly install resolved     repository:
+54 silly install resolved      { type: 'git',
+54 silly install resolved        url: 'git+ssh://git@github.com/reflux/refluxjs.git' },
+54 silly install resolved     bugs: { url: 'https://github.com/reflux/refluxjs/issues' },
+54 silly install resolved     keywords:
+54 silly install resolved      [ 'reflux',
+54 silly install resolved        'react',
+54 silly install resolved        'flux',
+54 silly install resolved        'architecture',
+54 silly install resolved        'dataflow',
+54 silly install resolved        'action',
+54 silly install resolved        'event',
+54 silly install resolved        'data' ],
+54 silly install resolved     dependencies: { eventemitter3: '^1.1.1', 'reflux-core': '^0.3.0' },
+54 silly install resolved     devDependencies:
+54 silly install resolved      { benchmark: '^1.0.0',
+54 silly install resolved        browserify: '~10.2.3',
+54 silly install resolved        chai: 'latest',
+54 silly install resolved        'chai-as-promised': 'latest',
+54 silly install resolved        'es6-promise': '^2.3.0',
+54 silly install resolved        grunt: '^0.4.5',
+54 silly install resolved        'grunt-browserify': '3.8.0',
+54 silly install resolved        'grunt-cli': '^0.1.13',
+54 silly install resolved        'grunt-contrib-jshint': '^0.11.2',
+54 silly install resolved        'grunt-contrib-uglify': '^0.5.0',
+54 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+54 silly install resolved        'grunt-karma': 'latest',
+54 silly install resolved        'grunt-mocha-test': '~0.12.7',
+54 silly install resolved        karma: 'latest',
+54 silly install resolved        'karma-browserify': 'latest',
+54 silly install resolved        'karma-commonjs': 'latest',
+54 silly install resolved        'karma-mocha': 'latest',
+54 silly install resolved        'karma-phantomjs-launcher': 'latest',
+54 silly install resolved        'karma-sauce-launcher': 'latest',
+54 silly install resolved        'karma-spec-reporter': 'latest',
+54 silly install resolved        matchdep: '^0.3.0',
+54 silly install resolved        mocha: 'latest',
+54 silly install resolved        q: '^1.0.1',
+54 silly install resolved        sinon: '^1.10.3' },
+54 silly install resolved     peerDependencies: { react: '>=0.12.2 <0.15.0' },
+54 silly install resolved     gitHead: '2b355e9436479c4bd0b8dbff0d33ab8fb28f5916',
+54 silly install resolved     homepage: 'https://github.com/reflux/refluxjs#readme',
+54 silly install resolved     _id: 'reflux@0.3.0',
+54 silly install resolved     _shasum: 'd1dd98330edb5422e937a1bf23293daf0d42402b',
+54 silly install resolved     _from: 'reflux@*',
+54 silly install resolved     _npmVersion: '2.11.1',
+54 silly install resolved     _nodeVersion: '0.10.12',
+54 silly install resolved     _npmUser: { name: 'spoike', email: 'mishakun+npm@gmail.com' },
+54 silly install resolved     maintainers: [ [Object] ],
+54 silly install resolved     dist:
+54 silly install resolved      { shasum: 'd1dd98330edb5422e937a1bf23293daf0d42402b',
+54 silly install resolved        tarball: 'http://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz' },
+54 silly install resolved     directories: {},
+54 silly install resolved     _resolved: 'https://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz',
+54 silly install resolved     readme: 'ERROR: No README data found!' } ]
+55 info install reflux@0.3.0 into /Users/lalit/js_react/demo1
+56 info installOne reflux@0.3.0
+57 verbose installOne of reflux to /Users/lalit/js_react/demo1 not in flight; installing
+58 verbose lock using /Users/lalit/.npm/_locks/reflux-38a4656e6a8c6bfe.lock for /Users/lalit/js_react/demo1/node_modules/reflux
+59 silly install write writing reflux 0.3.0 to /Users/lalit/js_react/demo1/node_modules/reflux
+60 verbose unbuild node_modules/reflux
+61 silly gentlyRm /Users/lalit/js_react/demo1/node_modules/reflux is being purged from base /Users/lalit/js_react/demo1
+62 verbose gentlyRm don't care about contents; nuking /Users/lalit/js_react/demo1/node_modules/reflux
+63 verbose tar unpack /Users/lalit/.npm/reflux/0.3.0/package.tgz
+64 verbose tar unpacking to /Users/lalit/js_react/demo1/node_modules/reflux
+65 silly gentlyRm /Users/lalit/js_react/demo1/node_modules/reflux is being purged
+66 verbose gentlyRm don't care about contents; nuking /Users/lalit/js_react/demo1/node_modules/reflux
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm extractEntry .npmignore
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm extractEntry Gruntfile.js
+72 silly gunzTarPerm extractEntry karma.conf.js
+73 silly gunzTarPerm extractEntry .travis.yml
+74 silly gunzTarPerm extractEntry CHANGELOG.md
+75 silly gunzTarPerm extractEntry LICENSE.md
+76 silly gunzTarPerm extractEntry .editorconfig
+77 silly gunzTarPerm extractEntry bower.json
+78 silly gunzTarPerm extractEntry .jshintrc
+79 silly gunzTarPerm extractEntry src/ListenerMixin.js
+80 silly gunzTarPerm extractEntry src/connect.js
+81 silly gunzTarPerm extractEntry src/connectFilter.js
+82 silly gunzTarPerm extractEntry src/index.js
+83 silly gunzTarPerm extractEntry src/listenTo.js
+84 silly gunzTarPerm extractEntry src/listenToMany.js
+85 verbose write writing to /Users/lalit/js_react/demo1/node_modules/reflux/package.json
+86 info preinstall reflux@0.3.0
+87 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/node_modules/reflux/package.json
+88 silly prepareForInstallMany adding eventemitter3@^1.1.1 from reflux dependencies
+89 silly prepareForInstallMany adding reflux-core@^0.3.0 from reflux dependencies
+90 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/node_modules/reflux/package.json
+91 silly cache add args [ 'reflux-core@^0.3.0', null ]
+92 verbose cache add spec reflux-core@^0.3.0
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'reflux-core@^0.3.0',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'reflux-core',
+93 silly cache add   rawSpec: '^0.3.0',
+93 silly cache add   spec: '>=0.3.0 <0.4.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed reflux-core@>=0.3.0 <0.4.0
+95 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for reflux-core
+96 silly addNameRange { name: 'reflux-core', range: '>=0.3.0 <0.4.0', hasData: false }
+97 silly mapToRegistry name reflux-core
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/reflux-core
+101 verbose addNameRange registry:https://registry.npmjs.org/reflux-core not in flight; fetching
+102 silly cache add args [ 'eventemitter3@^1.1.1', null ]
+103 verbose cache add spec eventemitter3@^1.1.1
+104 silly cache add parsed spec Result {
+104 silly cache add   raw: 'eventemitter3@^1.1.1',
+104 silly cache add   scope: null,
+104 silly cache add   name: 'eventemitter3',
+104 silly cache add   rawSpec: '^1.1.1',
+104 silly cache add   spec: '>=1.1.1 <2.0.0',
+104 silly cache add   type: 'range' }
+105 silly addNamed eventemitter3@>=1.1.1 <2.0.0
+106 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for eventemitter3
+107 silly addNameRange { name: 'eventemitter3',
+107 silly addNameRange   range: '>=1.1.1 <2.0.0',
+107 silly addNameRange   hasData: false }
+108 silly mapToRegistry name eventemitter3
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+112 verbose addNameRange registry:https://registry.npmjs.org/eventemitter3 not in flight; fetching
+113 verbose request uri https://registry.npmjs.org/reflux-core
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 1:41:38 PM
+116 verbose etag "2UK46WPX8XNOTPN11UPTTA5AK"
+117 http request GET https://registry.npmjs.org/reflux-core
+118 verbose request uri https://registry.npmjs.org/eventemitter3
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 1:41:38 PM
+121 verbose etag "CY3X87ZM8DTAO4EGU81JUIWCU"
+122 http request GET https://registry.npmjs.org/eventemitter3
+123 http 304 https://registry.npmjs.org/reflux-core
+124 silly get cb [ 304,
+124 silly get   { date: 'Tue, 08 Dec 2015 08:11:39 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     'cache-control': 'max-age=60',
+124 silly get     etag: '"2UK46WPX8XNOTPN11UPTTA5AK"',
+124 silly get     age: '0',
+124 silly get     connection: 'keep-alive',
+124 silly get     'x-served-by': 'cache-sin6926-SIN',
+124 silly get     'x-cache': 'MISS',
+124 silly get     'x-cache-hits': '0',
+124 silly get     'x-timer': 'S1449562299.125369,VS0,VE1041',
+124 silly get     vary: 'Accept' } ]
+125 verbose etag https://registry.npmjs.org/reflux-core from cache
+126 verbose get saving reflux-core to /Users/lalit/.npm/registry.npmjs.org/reflux-core/.cache.json
+127 silly addNameRange number 2 { name: 'reflux-core', range: '>=0.3.0 <0.4.0', hasData: true }
+128 silly addNameRange versions [ 'reflux-core', [ '0.2.0-rc', '0.2.0', '0.2.1', '0.3.0' ] ]
+129 silly addNamed reflux-core@0.3.0
+130 verbose addNamed "0.3.0" is a plain semver version for reflux-core
+131 silly cache afterAdd reflux-core@0.3.0
+132 verbose afterAdd /Users/lalit/.npm/reflux-core/0.3.0/package/package.json not in flight; writing
+133 verbose afterAdd /Users/lalit/.npm/reflux-core/0.3.0/package/package.json written
+134 http 304 https://registry.npmjs.org/eventemitter3
+135 silly get cb [ 304,
+135 silly get   { date: 'Tue, 08 Dec 2015 08:11:39 GMT',
+135 silly get     via: '1.1 varnish',
+135 silly get     'cache-control': 'max-age=60',
+135 silly get     etag: '"CY3X87ZM8DTAO4EGU81JUIWCU"',
+135 silly get     age: '0',
+135 silly get     connection: 'keep-alive',
+135 silly get     'x-served-by': 'cache-sin6921-SIN',
+135 silly get     'x-cache': 'HIT',
+135 silly get     'x-cache-hits': '1',
+135 silly get     'x-timer': 'S1449562299.120845,VS0,VE1807',
+135 silly get     vary: 'Accept' } ]
+136 verbose etag https://registry.npmjs.org/eventemitter3 from cache
+137 verbose get saving eventemitter3 to /Users/lalit/.npm/registry.npmjs.org/eventemitter3/.cache.json
+138 silly addNameRange number 2 { name: 'eventemitter3', range: '>=1.1.1 <2.0.0', hasData: true }
+139 silly addNameRange versions [ 'eventemitter3',
+139 silly addNameRange   [ '0.0.0',
+139 silly addNameRange     '0.0.1',
+139 silly addNameRange     '0.1.0',
+139 silly addNameRange     '0.1.1',
+139 silly addNameRange     '0.1.2',
+139 silly addNameRange     '0.1.3',
+139 silly addNameRange     '0.1.4',
+139 silly addNameRange     '0.1.5',
+139 silly addNameRange     '0.1.6',
+139 silly addNameRange     '1.0.0',
+139 silly addNameRange     '1.0.1',
+139 silly addNameRange     '1.0.2',
+139 silly addNameRange     '1.0.3',
+139 silly addNameRange     '1.1.0',
+139 silly addNameRange     '1.1.1' ] ]
+140 silly addNamed eventemitter3@1.1.1
+141 verbose addNamed "1.1.1" is a plain semver version for eventemitter3
+142 silly cache afterAdd eventemitter3@1.1.1
+143 verbose afterAdd /Users/lalit/.npm/eventemitter3/1.1.1/package/package.json not in flight; writing
+144 verbose afterAdd /Users/lalit/.npm/eventemitter3/1.1.1/package/package.json written
+145 silly install resolved [ { name: 'reflux-core',
+145 silly install resolved     version: '0.3.0',
+145 silly install resolved     description: 'A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux',
+145 silly install resolved     main: 'lib/index.js',
+145 silly install resolved     scripts:
+145 silly install resolved      { clean: 'rimraf ./lib',
+145 silly install resolved        'test:mocha': 'mocha',
+145 silly install resolved        'test:karma': 'karma start test/config/karma.conf.js',
+145 silly install resolved        'test:travis': 'karma start test/config/karma-travis.conf.js',
+145 silly install resolved        test: 'npm run test:mocha && npm run test:karma',
+145 silly install resolved        'lint:test': 'jshint test/',
+145 silly install resolved        'lint:src': 'eslint src/',
+145 silly install resolved        lint: 'npm run lint:test && npm run lint:src',
+145 silly install resolved        compile: 'npm run clean && babel src --out-dir lib && ./scripts/version',
+145 silly install resolved        build: 'npm run lint && npm run compile && npm run test',
+145 silly install resolved        benchmark: 'node test/benchmarks',
+145 silly install resolved        'watch:test': 'watch \'npm run lint:test && npm run test:mocha\' test/',
+145 silly install resolved        'watch:src': 'watch \'npm run lint:src && npm run compile && npm run test:mocha\' src/',
+145 silly install resolved        watch: 'parallelshell \'npm run watch:src\' \'npm run watch:test\'',
+145 silly install resolved        prepublish: 'npm run lint && npm run compile && npm run test:mocha',
+145 silly install resolved        precommit: 'npm run prepublish',
+145 silly install resolved        prepush: 'npm run prepublish' },
+145 silly install resolved     author: { name: 'Mikael Brassman' },
+145 silly install resolved     license: 'BSD-3-Clause',
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'git+https://github.com/reflux/reflux-core.git' },
+145 silly install resolved     bugs: { url: 'http://github.com/reflux/reflux-core/issues' },
+145 silly install resolved     keywords:
+145 silly install resolved      [ 'reflux',
+145 silly install resolved        'flux',
+145 silly install resolved        'architecture',
+145 silly install resolved        'dataflow',
+145 silly install resolved        'action',
+145 silly install resolved        'events',
+145 silly install resolved        'data' ],
+145 silly install resolved     dependencies: { eventemitter3: '^1.1.1' },
+145 silly install resolved     devDependencies:
+145 silly install resolved      { babel: '^5.8.19',
+145 silly install resolved        'babel-eslint': '^4.0.5',
+145 silly install resolved        benchmark: '^1.0.0',
+145 silly install resolved        browserify: '~10.2.3',
+145 silly install resolved        chai: 'latest',
+145 silly install resolved        'chai-as-promised': 'latest',
+145 silly install resolved        'es6-promise': '^2.3.0',
+145 silly install resolved        eslint: '^0.24.1',
+145 silly install resolved        husky: '^0.9.2',
+145 silly install resolved        jshint: 'latest',
+145 silly install resolved        karma: 'latest',
+145 silly install resolved        'karma-browserify': 'latest',
+145 silly install resolved        'karma-commonjs': 'latest',
+145 silly install resolved        'karma-mocha': 'latest',
+145 silly install resolved        'karma-phantomjs-launcher': 'latest',
+145 silly install resolved        'karma-sauce-launcher': 'latest',
+145 silly install resolved        'karma-spec-reporter': 'latest',
+145 silly install resolved        mocha: 'latest',
+145 silly install resolved        parallelshell: 'latest',
+145 silly install resolved        q: '^1.0.1',
+145 silly install resolved        replace: '^0.3.0',
+145 silly install resolved        rimraf: '^2.4.2',
+145 silly install resolved        sinon: '^1.10.3',
+145 silly install resolved        watch: 'latest' },
+145 silly install resolved     gitHead: 'de50cff5301f86d9da8c01084b95578ed3d77de8',
+145 silly install resolved     homepage: 'https://github.com/reflux/reflux-core#readme',
+145 silly install resolved     _id: 'reflux-core@0.3.0',
+145 silly install resolved     _shasum: 'c9aa78984555296237069613f9d6b11e2dbbc74c',
+145 silly install resolved     _from: 'reflux-core@>=0.3.0 <0.4.0',
+145 silly install resolved     _npmVersion: '2.14.4',
+145 silly install resolved     _nodeVersion: '4.1.2',
+145 silly install resolved     _npmUser: { name: 'spoike', email: 'mishakun+npm@gmail.com' },
+145 silly install resolved     maintainers: [ [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: 'c9aa78984555296237069613f9d6b11e2dbbc74c',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' },
+145 silly install resolved   { name: 'eventemitter3',
+145 silly install resolved     version: '1.1.1',
+145 silly install resolved     description: 'EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface.',
+145 silly install resolved     main: 'index.js',
+145 silly install resolved     scripts:
+145 silly install resolved      { 'test-browser': 'zuul --browser-name ${BROWSER_NAME} --browser-version ${BROWSER_VERSION} -- test.js',
+145 silly install resolved        'test-node': 'istanbul cover node_modules/.bin/_mocha --report lcovonly -- test.js',
+145 silly install resolved        coverage: 'istanbul cover ./node_modules/.bin/_mocha -- test.js',
+145 silly install resolved        sync: 'node versions.js',
+145 silly install resolved        test: 'mocha test.js' },
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'git://github.com/primus/eventemitter3.git' },
+145 silly install resolved     keywords:
+145 silly install resolved      [ 'EventEmitter',
+145 silly install resolved        'EventEmitter2',
+145 silly install resolved        'EventEmitter3',
+145 silly install resolved        'Events',
+145 silly install resolved        'addEventListener',
+145 silly install resolved        'addListener',
+145 silly install resolved        'emit',
+145 silly install resolved        'emits',
+145 silly install resolved        'emitter',
+145 silly install resolved        'event',
+145 silly install resolved        'once',
+145 silly install resolved        'pub/sub',
+145 silly install resolved        'publish',
+145 silly install resolved        'reactor',
+145 silly install resolved        'subscribe' ],
+145 silly install resolved     author: { name: 'Arnout Kazemier' },
+145 silly install resolved     license: 'MIT',
+145 silly install resolved     bugs: { url: 'https://github.com/primus/eventemitter3/issues' },
+145 silly install resolved     'pre-commit': 'sync, test',
+145 silly install resolved     devDependencies:
+145 silly install resolved      { assume: '1.2.x',
+145 silly install resolved        istanbul: '0.3.x',
+145 silly install resolved        mocha: '2.2.x',
+145 silly install resolved        'pre-commit': '1.0.x',
+145 silly install resolved        zuul: '3.0.x' },
+145 silly install resolved     gitHead: '91f571f40c918d71220747791c05ec33f3402a56',
+145 silly install resolved     homepage: 'https://github.com/primus/eventemitter3#readme',
+145 silly install resolved     _id: 'eventemitter3@1.1.1',
+145 silly install resolved     _shasum: '47786bdaa087caf7b1b75e73abc5c7d540158cd0',
+145 silly install resolved     _from: 'eventemitter3@>=1.1.1 <2.0.0',
+145 silly install resolved     _npmVersion: '2.9.1',
+145 silly install resolved     _nodeVersion: '0.12.3',
+145 silly install resolved     _npmUser: { name: '3rdeden', email: 'npm@3rd-Eden.com' },
+145 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: '47786bdaa087caf7b1b75e73abc5c7d540158cd0',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' } ]
+146 info install reflux-core@0.3.0 into /Users/lalit/js_react/demo1/node_modules/reflux
+147 info install eventemitter3@1.1.1 into /Users/lalit/js_react/demo1/node_modules/reflux
+148 info installOne reflux-core@0.3.0
+149 verbose installOne of reflux-core to /Users/lalit/js_react/demo1/node_modules/reflux not in flight; installing
+150 info installOne eventemitter3@1.1.1
+151 verbose installOne of eventemitter3 to /Users/lalit/js_react/demo1/node_modules/reflux not in flight; installing
+152 verbose lock using /Users/lalit/.npm/_locks/reflux-core-10fbef1924d3b860.lock for /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+153 silly install write writing reflux-core 0.3.0 to /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+154 verbose lock using /Users/lalit/.npm/_locks/eventemitter3-a41ec1eb8d7ff74b.lock for /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+155 silly install write writing eventemitter3 1.1.1 to /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+156 verbose unbuild node_modules/reflux/node_modules/reflux-core
+157 verbose unbuild node_modules/reflux/node_modules/eventemitter3
+158 silly gentlyRm /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core is being purged from base /Users/lalit/js_react/demo1
+159 verbose gentlyRm don't care about contents; nuking /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+160 verbose tar unpack /Users/lalit/.npm/reflux-core/0.3.0/package.tgz
+161 verbose tar unpacking to /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+162 silly gentlyRm /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core is being purged
+163 verbose gentlyRm don't care about contents; nuking /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+164 silly gentlyRm /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3 is being purged from base /Users/lalit/js_react/demo1
+165 verbose gentlyRm don't care about contents; nuking /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+166 silly gunzTarPerm modes [ '755', '644' ]
+167 verbose tar unpack /Users/lalit/.npm/eventemitter3/1.1.1/package.tgz
+168 verbose tar unpacking to /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+169 silly gentlyRm /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3 is being purged
+170 verbose gentlyRm don't care about contents; nuking /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm extractEntry package.json
+174 silly gunzTarPerm extractEntry .npmignore
+175 silly gunzTarPerm extractEntry README.md
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm extractEntry LICENSE
+178 silly gunzTarPerm extractEntry .jshintrc
+179 silly gunzTarPerm extractEntry .editorconfig
+180 silly gunzTarPerm extractEntry index.js
+181 silly gunzTarPerm extractEntry .travis.yml
+182 silly gunzTarPerm extractEntry CHANGELOG.md
+183 silly gunzTarPerm extractEntry LICENSE.md
+184 silly gunzTarPerm extractEntry .eslintrc
+185 silly gunzTarPerm extractEntry lib/ActionMethods.js
+186 verbose write writing to /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3/package.json
+187 silly gunzTarPerm extractEntry lib/ListenerMethods.js
+188 silly gunzTarPerm extractEntry lib/PublisherMethods.js
+189 info preinstall eventemitter3@1.1.1
+190 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3/package.json
+191 silly gunzTarPerm extractEntry lib/StoreMethods.js
+192 silly gunzTarPerm extractEntry lib/bindMethods.js
+193 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3/package.json
+194 silly install resolved []
+195 verbose about to build /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+196 info build /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+197 silly gunzTarPerm extractEntry lib/Keep.js
+198 silly gunzTarPerm extractEntry lib/createStore.js
+199 info linkStuff eventemitter3@1.1.1
+200 silly linkStuff eventemitter3@1.1.1 has /Users/lalit/js_react/demo1/node_modules/reflux/node_modules as its parent node_modules
+201 silly gunzTarPerm extractEntry lib/index.js
+202 silly gunzTarPerm extractEntry lib/joins.js
+203 verbose linkBins eventemitter3@1.1.1
+204 verbose linkMans eventemitter3@1.1.1
+205 verbose rebuildBundles eventemitter3@1.1.1
+206 info install eventemitter3@1.1.1
+207 silly gunzTarPerm extractEntry lib/mixer.js
+208 silly gunzTarPerm extractEntry lib/utils.js
+209 info postinstall eventemitter3@1.1.1
+210 verbose unlock done using /Users/lalit/.npm/_locks/eventemitter3-a41ec1eb8d7ff74b.lock for /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/eventemitter3
+211 silly gunzTarPerm extractEntry lib/createAction.js
+212 verbose write writing to /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core/package.json
+213 info preinstall reflux-core@0.3.0
+214 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core/package.json
+215 verbose readDependencies loading dependencies from /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core/package.json
+216 silly install resolved []
+217 verbose about to build /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+218 info build /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+219 info linkStuff reflux-core@0.3.0
+220 silly linkStuff reflux-core@0.3.0 has /Users/lalit/js_react/demo1/node_modules/reflux/node_modules as its parent node_modules
+221 verbose linkBins reflux-core@0.3.0
+222 verbose linkMans reflux-core@0.3.0
+223 verbose rebuildBundles reflux-core@0.3.0
+224 info install reflux-core@0.3.0
+225 info postinstall reflux-core@0.3.0
+226 verbose unlock done using /Users/lalit/.npm/_locks/reflux-core-10fbef1924d3b860.lock for /Users/lalit/js_react/demo1/node_modules/reflux/node_modules/reflux-core
+227 verbose about to build /Users/lalit/js_react/demo1/node_modules/reflux
+228 info build /Users/lalit/js_react/demo1/node_modules/reflux
+229 info linkStuff reflux@0.3.0
+230 silly linkStuff reflux@0.3.0 has /Users/lalit/js_react/demo1/node_modules as its parent node_modules
+231 verbose linkBins reflux@0.3.0
+232 verbose linkMans reflux@0.3.0
+233 verbose rebuildBundles reflux@0.3.0
+234 verbose rebuildBundles [ 'eventemitter3', 'reflux-core' ]
+235 info install reflux@0.3.0
+236 info postinstall reflux@0.3.0
+237 verbose unlock done using /Users/lalit/.npm/_locks/reflux-38a4656e6a8c6bfe.lock for /Users/lalit/js_react/demo1/node_modules/reflux
+238 verbose validateInstall loading /Users/lalit/js_react/demo1/package.json for validation
+239 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+239 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+239 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+239 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+239 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+239 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+240 verbose cwd /Users/lalit/js_react/demo1
+241 error Darwin 15.0.0
+242 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "reflux"
+243 error node v4.1.2
+244 error npm  v2.14.4
+245 error code EPEERINVALID
+246 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+246 error peerinvalid Peer material-ui@0.13.4 wants react@^0.14.0
+246 error peerinvalid Peer react-dom@0.14.3 wants react@^0.14.3
+246 error peerinvalid Peer reflux@0.3.0 wants react@>=0.12.2 <0.15.0
+246 error peerinvalid Peer react-tap-event-plugin@0.2.1 wants react@^0.14.0
+247 verbose exit [ 1, true ]
