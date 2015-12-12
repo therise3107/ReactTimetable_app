@@ -10,9 +10,9 @@ module.exports = React.createClass({
 	render: function(){
 		return	<div>
 		<a
-
 		onClick = {this.handleClick}
-		className = "button">
+		className = "button"
+		>
 		{this.props.title}
 		</a>
 

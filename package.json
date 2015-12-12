@@ -8,7 +8,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "material-ui": "^0.13.0",
     "browserify": "^9.0.3",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
@@ -18,7 +17,8 @@
     "gulp-util": "^3.0.4",
     "gulp-watch": "^4.2.4",
     "node-notifier": "^4.2.1",
-    "react": "^0.13.1",
+    "react": "^0.14.3",
+    "react-search": "^1.0.7",
     "reactify": "^1.1.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^2.4.0"
