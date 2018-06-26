@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +23,9 @@
     "react-search": "^1.0.7",
     "reactify": "^1.1.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^2.4.0"
+    "watchify": "^2.4.0",
+    "snyk": "^1.85.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
